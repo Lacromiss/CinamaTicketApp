@@ -15,3 +15,4 @@ C:\Users\Mustafa\source\repos\CinemaPlus\Infrastructure\obj\Debug\net7.0\refint\
 C:\Users\Mustafa\source\repos\CinemaPlus\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
 C:\Users\Mustafa\source\repos\CinemaPlus\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache
 C:\Users\Mustafa\source\repos\CinemaPlus\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+C:\Users\Mustafa\source\repos\CinemaPlus\Infrastructure\obj\Debug\net7.0\Infrastructure.sourcelink.json

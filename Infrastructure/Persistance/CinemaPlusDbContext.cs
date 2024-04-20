@@ -7,9 +7,9 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure
+namespace Infrastructure.Persistance
 {
-    public class CinemaPlusDbContext:DbContext
+    public class CinemaPlusDbContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
@@ -23,7 +23,7 @@ namespace Infrastructure
         public DbSet<Cinema> cinemas { get; set; }
         public DbSet<Session> Sessions { get; set; }
         public DbSet<Seat> Seats { get; set; }
-     
+
 
     }
 }
