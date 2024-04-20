@@ -1,0 +1,14 @@
+C:\Users\Mustafa\source\repos\CinemaPlus\Application\bin\Debug\net7.0\Application.deps.json
+C:\Users\Mustafa\source\repos\CinemaPlus\Application\bin\Debug\net7.0\Application.runtimeconfig.json
+C:\Users\Mustafa\source\repos\CinemaPlus\Application\bin\Debug\net7.0\Application.dll
+C:\Users\Mustafa\source\repos\CinemaPlus\Application\bin\Debug\net7.0\Application.pdb
+C:\Users\Mustafa\source\repos\CinemaPlus\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+C:\Users\Mustafa\source\repos\CinemaPlus\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mustafa\source\repos\CinemaPlus\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+C:\Users\Mustafa\source\repos\CinemaPlus\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+C:\Users\Mustafa\source\repos\CinemaPlus\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa\source\repos\CinemaPlus\Application\obj\Debug\net7.0\Application.dll
+C:\Users\Mustafa\source\repos\CinemaPlus\Application\obj\Debug\net7.0\refint\Application.dll
+C:\Users\Mustafa\source\repos\CinemaPlus\Application\obj\Debug\net7.0\Application.pdb
+C:\Users\Mustafa\source\repos\CinemaPlus\Application\obj\Debug\net7.0\Application.genruntimeconfig.cache
+C:\Users\Mustafa\source\repos\CinemaPlus\Application\obj\Debug\net7.0\ref\Application.dll
