@@ -1,6 +1,8 @@
 ﻿using Application.Abstracts.Common.Interfaces;
 using Application.Abstracts.Repositories;
+using Infrastructure.Concretes.Repositoryes;
 using Infrastructure.Persistance;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,21 +30,20 @@ namespace Infrastructure.Concretes.Common
 
         public ICinemaRepository CinemaRepository => _CinemaRepository ??= new CinemaRepository(_context);
 
-        public IFilmRepository FilmRepository => throw new NotImplementedException();
+        public IFilmRepository FilmRepository => _FilmRepository ??= new FilmRepository(_context);
 
-        public IFilmLanguageRepository FilmLanguageRepository => throw new NotImplementedException();
+        public IFilmLanguageRepository FilmLanguageRepository => _FilmLanguageRepository ??= new FilmLanguageRepository(_context);
 
-        public IHallRepository HallRepository => throw new NotImplementedException();
+        public IHallRepository HallRepository => _IHallRepository ??= new HallRepository(_context);
 
-        public ISeatRepository SeatRepository => throw new NotImplementedException();
+        public ISeatRepository SeatRepository => _ISeatRepository ??= new SeatRepository(_context);
 
-        public ISessionRepository SessionRepository => throw new NotImplementedException();
+        public ISessionRepository SessionRepository => _ISessionRepository ??= new SessionRepository(_context);
 
-        public ILanguageRepository LanguageRepository => throw new NotImplementedException();
+        public ILanguageRepository LanguageRepository => _ILanguageRepository ??= new LanguageRepository(_context);
 
-        public Task<int> SaveChangesAsync(CancellationToken cancellationToken)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default) => await _context.SaveChangesAsync(cancellationToken);
+
+
     }
 }
