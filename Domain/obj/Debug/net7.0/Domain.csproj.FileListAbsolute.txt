@@ -12,3 +12,4 @@ C:\Users\Mustafa\source\repos\CinemaPlus\Domain\obj\Debug\net7.0\refint\Domain.d
 C:\Users\Mustafa\source\repos\CinemaPlus\Domain\obj\Debug\net7.0\Domain.pdb
 C:\Users\Mustafa\source\repos\CinemaPlus\Domain\obj\Debug\net7.0\Domain.genruntimeconfig.cache
 C:\Users\Mustafa\source\repos\CinemaPlus\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Users\Mustafa\source\repos\CinemaPlus\Domain\obj\Debug\net7.0\Domain.sourcelink.json
